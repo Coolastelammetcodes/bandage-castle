@@ -23,7 +23,7 @@ export const NAV: NavItem[] = [
   { group: 'care', to: '/monsters', label: 'Monsters', icon: '🐉', roles: STAFF },
   { group: 'care', to: '/lairs', label: 'Lairs', icon: '🏚️', roles: ['ADMIN', 'KEEPER', 'FRONT_DESK', 'VET'] },
   { group: 'care', to: '/feeding', label: 'Feeding', icon: '🍖', roles: CARE },
-  { group: 'care', to: '/supply', label: 'Supplies', icon: '📦', roles: CARE },
+  { group: 'care', to: '/supplies', label: 'Supplies', icon: '📦', roles: CARE },
   { group: 'care', to: '/vet', label: 'Vet', icon: '🩺', roles: ['VET', 'ADMIN'] },
   { group: 'care', to: '/rounds', label: 'Rounds', icon: '🧪', roles: ['VET', 'KEEPER'] },
   { group: 'care', to: '/therapy', label: 'Therapy', icon: '🛋️', roles: ['THERAPIST', 'ADMIN'] },
